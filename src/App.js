@@ -1,10 +1,11 @@
 import './App.css';
+import Page from './pages/Page';
 
 function App() {
   return (
-    <div className="bg-green-500">
-      hi
-    </div>
+    <>
+      <Page />
+    </>
   );
 }
 
