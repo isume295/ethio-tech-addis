@@ -40,18 +40,18 @@ export default function Navbar() {
   };
 
   return (
-    <div className="sticky top-0 z-10">
+    <div className="sticky top-0 z-30">
       <nav className="flex ">
         <div className="md:flex md-flex-col w-full h-16 gap-8 text-sm items-center px-8 py-4 font-poppins font-medium text-white bg-mainColor">
           <div className="md:flex md-flex-col gap-8 mt-28 md:mt-0">
             {links.map((link) => (
               <div key={link.label} onMouseEnter={link.label === 'Company' ? toggleDropdown : null} onMouseLeave={link.label === 'Company' ? closeDropdown : null} className="">
-                <div className={`transition-all duration-500 transform md:flex ${showContent ? 'flex flex-col bg-mainColor  justify-center items-center gap-4 translate-y-0' : 'hidden'}`}>
+                <div className={` transition-all duration-500 transform md:flex ${showContent ? 'flex flex-col bg-mainColor justify-center items-center gap-4 translate-y-0' : 'hidden'}`}>
                   <NavLink className="hover:text-secondColor duration-300 ease-in-out text-black md:text-white md:py-4" to={link.path}>
                     {link.label}
                   </NavLink>
                   {link.label === 'Company' && isDropdownOpen && (
-                  <div className="absolute flex flex-col font-medium text-sm gap-2 bg-white text-gray-400 w-48 px-3 py-2 shadow-md mt-10">
+                  <div className="absolute flex flex-col font-medium text-sm gap-2 bg-white text-gray-400 w-48 px-3 py-2 shadow-md mt-12">
                     {link.dropdownLinks.map((dropdownLink) => (
                       <NavLink className="hover:text-secondColor duration-300 ease-in-out" key={dropdownLink.label} to={dropdownLink.path}>
                         {dropdownLink.label}
