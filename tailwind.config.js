@@ -13,7 +13,7 @@ module.exports = {
         lightMain: '#29ACE2',
         rbgSecond: 'rgb(236, 27, 48, 0.5)',
         rbgMain: 'rgba(20, 88, 135, 0.5)',
-        customDark: 'rgba(6, 15, 21, 0.9)',
+        customDark: 'rgba(6, 15, 21, 0.7)',
         customDarkRed: 'rgba(94, 22, 29, 0.5)',
       },
     },
