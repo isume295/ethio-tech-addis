@@ -49,7 +49,7 @@ export default function Hero() {
                     <span id="blackOverlay" className="w-full h-full absolute opacity-75 bg-black" />
                   </div>
                   <div className="container relative  flex items-center h-96 mx-5">
-                    <div className="  my-auto flex flex-wrap">
+                    <div className=" my-auto flex flex-wrap">
                       <div className="w-full lg:w-6/12 px-4 my-auto">
                         <div className="pr-12">
                           <h1 className="text-white font-semibold text-5xl">

@@ -4,7 +4,8 @@ import React from 'react';
 export default function News() {
   return (
     <div className="relative h-96 bg-gray-200 z-20">
-      <div className="flex flex-col justify-center p-10 gap-10 items-center">
+      <div className="flex relative flex-col bg-green-600 justify-center p-10 gap-10 items-center">
+        {/* <div className="absolute w-56 h-44 top-0 z-10 right-12 bg-customDarkRed" /> */}
         <h2
           className="
                    font-bold
@@ -15,9 +16,9 @@ export default function News() {
                    font-raleway
                    "
         >
-          News and Events
+          News
         </h2>
-        <div className=" h-full flex items-center border border:red-500 shadow-2xl justify-center">
+        <div className="relative z-20 h-full flex gap-4 items-center border border:red-500 shadow-2xl justify-center">
 
           <card className="bg-white p-8 w-[32rem]">
 
@@ -30,7 +31,7 @@ export default function News() {
               >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20 12H4" />
               </svg>
-              <p>NEWS</p>
+              <p>TECH NEWS</p>
             </header>
 
             <h2 className="font-bold text-3xl mt-2">
@@ -62,6 +63,7 @@ export default function News() {
             </button>
 
           </card>
+          <div className="absolute w-56 h-44 top-0 z-10 right-12 bg-customDarkRed" />
           <card className="bg-white p-8 w-[32rem]">
 
             <header className="flex font-light text-sm">
@@ -73,7 +75,7 @@ export default function News() {
               >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M20 12H4" />
               </svg>
-              <p>EVENTS</p>
+              <p>HOT NEWS</p>
             </header>
 
             <h2 className="font-bold text-3xl mt-2">
@@ -108,6 +110,7 @@ export default function News() {
 
         </div>
       </div>
+      <div className="absolute w-56 h-44 top-14 z-10 right-12 bg-customDarkRed" />
     </div>
   );
 }
