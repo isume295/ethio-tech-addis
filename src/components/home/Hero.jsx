@@ -39,7 +39,7 @@ export default function Hero() {
               <section className="relative bg-blueGray-50">
                 <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
                   <div
-                    className="absolute top-0 w-full h-screen bg-center bg-cover"
+                    className="absolute top-0 w-full h-full bg-center bg-cover"
                     style={{
                       backgroundImage: `url(${image.src})`,
                       backgroundSize: 'cover',
@@ -71,7 +71,7 @@ export default function Hero() {
           ))}
         </Swiper>
       </div>
-      <div className="relative z-20">
+      <div className="relative z-20 overflow-x-hidden flex justify-center items-center px-10 bg-white">
         <WhatWeDo />
       </div>
     </>
