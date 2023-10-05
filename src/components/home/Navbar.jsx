@@ -42,7 +42,7 @@ export default function Navbar() {
   return (
     <div className="sticky top-0 z-30">
       <nav className="flex ">
-        <div className="md:flex md-flex-col w-full h-16 gap-8 text-sm items-center px-8 py-4 font-poppins font-medium text-white bg-mainColor">
+        <div className="md:flex md-flex-col w-full h-16 gap-8 text-sm items-center px-8 py-4 font-poppins font-medium text-white shadow-xl bg-mainColor">
           <div className="md:flex md-flex-col gap-8 mt-28 md:mt-0">
             {links.map((link) => (
               <div key={link.label} onMouseEnter={link.label === 'Company' ? toggleDropdown : null} onMouseLeave={link.label === 'Company' ? closeDropdown : null} className="">
