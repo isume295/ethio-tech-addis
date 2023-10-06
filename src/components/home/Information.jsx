@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Information() {
   return (
-    <div className=" relative z-20 flex w-full justify-center pb-20 items-center bg-white">
+    <div className=" relative z-20 flex w-full justify-center pt-5 items-center bg-white">
       <div className="container flex flex-col bg-white">
         <div className="w-full draggable">
           <div className="container flex flex-col items-center gap-16 my-10">
