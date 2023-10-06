@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function WhatWeDo() {
   return (
-    <section className="pt-20 lg:pt-[80px] pb-12 lg:pb-[90px]">
+    <section className="pt-20 lg:pt-[80px] pb-12 lg:pb-[0px]">
       <div className="container">
         <div className="flex flex-wrap -mx-4">
           <div className="w-full px-4">

@@ -16,7 +16,7 @@ export default function News() {
                    font-raleway
                    "
         >
-          News
+          Latest News
         </h2>
         <div className=" flex w-full md:container">
           <div className="relative z-20 md:p-4 md:mx-20 h-full flex flex-col md:flex-row gap-4 items-center justify-center">
